@@ -12,7 +12,7 @@ window.addEventListener("load",function(e) //store load events
     myStorage.setItem("load",last_load+"load  the "+(e.target)+" in "+ new Date());
 });
 
-window.addEventListener("unload",function(e) //store load events
+window.addEventListener("unload",function(e) //store unload events
 {
     var last_unload="";
     if (myStorage.getItem("unload")!=null)
