@@ -107,5 +107,5 @@ function play() // show img of selected charcter
     outDiv.appendChild(newImg);
 }
 setInterval(function () {
-    myStorage.clear();
+    //myStorage.clear();
 },5000);
